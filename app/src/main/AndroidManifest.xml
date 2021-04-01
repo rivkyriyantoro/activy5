@@ -9,16 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Activy3">
-        <activity android:name=".ActivtyHasil">
-            android:parentActivtyName=".MainActivity"
-            andorid:label="@string/label2"
+        <activity android:name=".ActivtyDaftar" android:label="@string/mDaftar"
+            android:parentActivityName=".MainActivity" />
 
-        </activity>
-        <activity android:name=".ActivtyKedua">
-            android:parentActivtyName=".MainActivity"
-            andorid:label="@string/label2"
-
-        </activity>
+        <activity
+            android:name=".ActivtyHasil"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/label2" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
